@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+
+/*
+ TYPICAL DEVICE BREAKPOINTS
+ ----------------------------
+
+ Pequenas telas: até 600px
+ Celular: de 600px até 768px
+ Tabletes: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 780px) and (max-width: 992px) {
+    body{
+        background-image: linear-gradient(to left, #696FDB, #4B4C5C);
+    }
+
+    main{
+        width: 80vw;
+        height: 500px;
+    }
+
+    #but > input{
+        width: 89%;
+        margin-top: 30px;
+        height: 40px;
+        border-radius: 30px;
+        font-size: 17px;
+    }
+
+    #but > input:hover{
+        background-image: linear-gradient(to left, #696fdb, #3DC6DB , #696fdb);
+        border:1px solid #3DC6DB;
+        transition: 0.1s;
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+    background-image: linear-gradient(to left, #696FDB, #4B4C5C);
+
+    }
+
+    main{
+        width: 950px;
+    }
+
+    #but > input{
+        width: 89%;
+        margin-top: 30px;
+        height: 40px;
+        border-radius: 30px;
+        font-size: 17px;
+    }
+
+    #but > input:hover{
+        background-image: linear-gradient(to left, #696fdb, #3DC6DB , #696fdb);
+        border:1px solid #3DC6DB;
+        transition: 0.1s;
+        font-size: 19px;
+    }
+
+}

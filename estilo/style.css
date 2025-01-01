@@ -47,9 +47,11 @@ main{
 
 }
 
+
 .part > label:hover{
     font-size: 12px;
     transition: 0.1s;
+    cursor: pointer;
 }
 
 p{
