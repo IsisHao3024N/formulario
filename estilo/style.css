@@ -48,7 +48,7 @@ main{
 }
 
 
-.part > label:hover{
+.al:hover{
     font-size: 12px;
     transition: 0.1s;
     cursor: pointer;
