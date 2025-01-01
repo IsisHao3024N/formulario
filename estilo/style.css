@@ -35,6 +35,7 @@ main{
 
 .corpo > h1{
     padding-bottom: 10px;
+    text-align: center;
 }
 
 .part > input{
